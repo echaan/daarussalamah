@@ -60,7 +60,7 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="<?php echo site_url('galeri');?>">Gallery</a>
                                 </li>
-                                <li class="dropdown">
+                                <!-- <li class="dropdown">
                                 <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="yes" href="<?php echo base_url().'profil'?>">Fasilitas</a>
                                 <ul class="dropdown-menu">
                                     <li><a href="<?php echo base_url().'profil/sejarah'?>">Ruang Belajar</a></li>
@@ -70,7 +70,7 @@
                                     <li><a href="<?php echo base_url().'profil/mts'?>">Olahraga</a></li>
                                     <li><a href="<?php echo base_url().'profil/ma'?>">Laboratorium</a></li>
                                 </ul>
-                                </li>
+                                </li> -->
                                 <li class="nav-item">
                                   <a class="nav-link" href="<?php echo site_url('contact');?>">Contact</a>
                                 </li>

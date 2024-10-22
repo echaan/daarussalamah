@@ -10,6 +10,10 @@
   <link rel="stylesheet" href="<?php echo base_url().'theme/css/bootstrap.min.css'?>">
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Lora:400,700" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">  
   <!-- Font Awesome -->
   <link rel="stylesheet" href="<?php echo base_url().'theme/css/font-awesome.min.css'?>">
   <!-- Simple Line Font -->
