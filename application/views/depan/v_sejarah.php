@@ -7,12 +7,12 @@
     
     <?php include 'v_header.php'?>
 
-    <section>
+    <section class="clearfix about about-style2 about_bg">
+        <h2 style="color: rgb(56, 159, 73); text-align: center;" class="about_bg">Sejarah</h2>
+    </section>
     <!--============================= SEJARAH =============================-->
     <section class="clearfix about about-style2 sejarah">
         <div class="container">
-            <h2 style="color: rgb(56, 159, 73);">Sejarah Daarussalamah</h2>
-            <br><br>
             <div class="image-container">
                 <img src="<?php echo base_url().'theme/images/icon3.png'?>" class="img-fluid about-img" alt="#">
             </div>
@@ -21,44 +21,10 @@
         </div>
     </section>
 
-
-
-    <!--============================= DETAILED CHART =============================-->
-        <div class="detailed_chart">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-6 col-md-3 chart_bottom">
-                            <div class="chart-img">
-                                <img src="<?php echo base_url().'theme/images/chart-icon_1.png'?>" class="img-fluid" alt="chart_icon">
-                            </div>
-                            <div class="chart-text">
-                                <p><span class="counter">41</span> Guru
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-md-3 chart_bottom chart_top">
-                            <div class="chart-img">
-                                <img src="<?php echo base_url().'theme/images/chart-icon_2.png'?>" class="img-fluid" alt="chart_icon">
-                            </div>
-                            <div class="chart-text">
-                                <p><span class="counter">911</span> Siswa
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-md-3 chart_top">
-                            <div class="chart-img">
-                                <img src="<?php echo base_url().'theme/images/chart-icon_3.png'?>" class="img-fluid" alt="chart_icon">
-                            </div>
-                            <div class="chart-text">
-                                <p><span class="counter">41</span> Ruang Belajar
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        <!--//END DETAILED CHART -->
-    </section>
+    <!-- Detailed Chart -->
+    <?php
+        include "v_detailed_chart.php";
+    ?>
     
     <!--============================= FOOTER =============================-->
 

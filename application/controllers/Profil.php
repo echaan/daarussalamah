@@ -9,6 +9,14 @@ class Profil extends CI_Controller{
 		$this->load->view('depan/v_sejarah');
 	}
 
+	function visimisi(){
+		$this->load->view('depan/v_visi_misi');
+	}
+
+	function struktur(){
+		$this->load->view('depan/v_struktur');
+	}
+
 	function mi(){
 		$this->load->view('depan/v_profil_mi');
 	}

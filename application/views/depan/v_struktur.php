@@ -16,53 +16,30 @@
 <!-- Profil -->
     <?php include 'v_header.php'?>
     <section class="clearfix about about-style2 about_bg">
-        <h2 style="color: rgb(56, 159, 73); text-align: center;" class="about_bg">Profil MIS Daarussalamah</h2>
+        <h2 style="color: rgb(56, 159, 73); text-align: center;" class="about_bg">Struktur Kepengurursan</h2>
     </section>
-    <section class="profile-container">
-        <div class="container">
-            <br><br>
-            <div class="profil">
-                <div class="card-information">
-                    <br>
-                    <p class="justify-text"><i class="fa fa-circle" aria-hidden="true"></i><span> Nama Lembaga : Madrasah Ibtidaiyah Swasta Daarussalamah</span></p>
-                    <p class="justify-text"><i class="fa fa-circle" aria-hidden="true"></i><span> Singkatan : MIS Daarussalamah</span></p>
-                    <p class="justify-text"><i class="fa fa-circle" aria-hidden="true"></i><span> Tahun Berdiri : 2005</span></p>
-                    <p class="justify-text"><i class="fa fa-circle" aria-hidden="true"></i><span> No SK Pendirian : Kd.04.9/3/MI/PP.00/1280/2010</span></p>
-                    <p class="justify-text"><i class="fa fa-circle" aria-hidden="true"></i><span> Tanggal SK Pendirian : 02 Agustus 2010</span></p>
-                    <p class="justify-text"><i class="fa fa-circle" aria-hidden="true"></i><span> Alamat : Jl. KH. Hasyim Asy'ari. No.12 Desa Bangun Jaya</span></p>
-                </div>
-                <div class="card-akreditasi">
-                    <h4>Akreditasi</h4>
-                    <br>
-                    <div class="nilai-akreditasi">
-                        <h3>B</h3>
-                    </div>
-                    <br>
-                    <p>2020 hingga 2025</p>
-                </div>
-            </div>          
-        </div>
-        </section>
-        <br><br>
 
 <!-- Struktur -->
 <section>
     <div class="container struktur">
-        <h3>Struktur Kepengurusan</h3>
     </div>
-    <br>
+    <br><br>
     <div class="kepengurusan container d-flex justify-content-center align-items-center">
         <a href="<?php echo base_url().'theme/images/tes2.png'?>" class="image-link2">
             <img src="<?php echo base_url().'theme/images/tes2.png'?>" alt="Gambar Struktur" />
         </a>
     </div>
-    <br>
+    <br><br>
 </section>
 
-<!--============================= DETAILED CHART =============================-->
+<!-- Detailde Chart -->
+ <?php 
+    include "v_detailed_chart.php"
+ ?>
+
+
 
 <?php 
-        include 'v_detailed_chart.php';
         include 'footer.php';
     ?>
         

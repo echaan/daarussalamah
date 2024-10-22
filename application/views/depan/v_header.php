@@ -40,8 +40,8 @@
                                 <li class="dropdown">
                                 <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="yes" href="<?php echo base_url().'profil'?>">Profil</a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="<?php echo base_url().'profil/sejarah'?>">Visi & Misi</a></li>
-                                    <li><a href="<?php echo base_url().'profil/sejarah'?>">Struktur Kepengurusan</a></li>
+                                    <li><a href="<?php echo base_url().'profil/visimisi'?>">Visi & Misi</a></li>
+                                    <li><a href="<?php echo base_url().'profil/struktur'?>">Struktur Kepengurusan</a></li>
                                     <li><a href="<?php echo base_url().'profil/sejarah'?>">Sejarah Daarussalamah</a></li>
                                     <li><a href="<?php echo base_url().'profil/mi'?>">MIS Daarussalamah</a></li>
                                     <li><a href="<?php echo base_url().'profil/mts'?>">MTsS Daarussalamah</a></li>
