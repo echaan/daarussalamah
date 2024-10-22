@@ -24,21 +24,21 @@
             <div class="profil">
                 <div class="card-information">
                     <br>
-                    <p class="justify-text"><i class="fa fa-circle" aria-hidden="true"></i><span> Nama Lembaga : Madrasah Ibtidaiyah Daarussalamah</span></p>
-                    <p class="justify-text"><i class="fa fa-circle" aria-hidden="true"></i><span> Singkatan : MI Daarussalamah</span></p>
-                    <p class="justify-text"><i class="fa fa-circle" aria-hidden="true"></i><span> Tahun Berdiri : ???</span></p>
-                    <p class="justify-text"><i class="fa fa-circle" aria-hidden="true"></i><span> No SK Pendirian : ???</span></p>
-                    <p class="justify-text"><i class="fa fa-circle" aria-hidden="true"></i><span> Tanggal SK Pendirian : ???</span></p>
+                    <p class="justify-text"><i class="fa fa-circle" aria-hidden="true"></i><span> Nama Lembaga : MAS PP Daarussalamah</span></p>
+                    <p class="justify-text"><i class="fa fa-circle" aria-hidden="true"></i><span> Singkatan : Madrasah Aliyah Swasta Daarussalamah</span></p>
+                    <p class="justify-text"><i class="fa fa-circle" aria-hidden="true"></i><span> NPSN : 69941594</span></p>
+                    <!-- <p class="justify-text"><i class="fa fa-circle" aria-hidden="true"></i><span> Tahun Berdiri : ???</span></p> -->
+                    <p class="justify-text"><i class="fa fa-circle" aria-hidden="true"></i><span> No SK Pendirian : KW.04.2/5/PP.00.11/614/2015</span></p>
+                    <p class="justify-text"><i class="fa fa-circle" aria-hidden="true"></i><span> Tanggal SK Pendirian : 28 Agustus 2015</span></p>
                     <p class="justify-text"><i class="fa fa-circle" aria-hidden="true"></i><span> Alamat : Jl. Kh. Hasyim Asy'ari. Desa Bangun Jaya</span></p>
                 </div>
                 <div class="card-akreditasi">
                     <h4>Akreditasi</h4>
                     <br>
                     <div class="nilai-akreditasi">
-                        <h3>B</h3>
+                        <h3>C</h3>
                     </div>
                     <br>
-                    <p>Akreditasi 2024 oleh xxxxx</p>
                 </div>
             </div>          
         </div>

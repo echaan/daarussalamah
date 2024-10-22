@@ -26,6 +26,7 @@
                     <br>
                     <p class="justify-text"><i class="fa fa-circle" aria-hidden="true"></i><span> Nama Lembaga : Madrasah Ibtidaiyah Swasta Daarussalamah</span></p>
                     <p class="justify-text"><i class="fa fa-circle" aria-hidden="true"></i><span> Singkatan : MIS Daarussalamah</span></p>
+                    <p class="justify-text"><i class="fa fa-circle" aria-hidden="true"></i><span> NPSN : 60704468</span></p>
                     <p class="justify-text"><i class="fa fa-circle" aria-hidden="true"></i><span> Tahun Berdiri : 2005</span></p>
                     <p class="justify-text"><i class="fa fa-circle" aria-hidden="true"></i><span> No SK Pendirian : Kd.04.9/3/MI/PP.00/1280/2010</span></p>
                     <p class="justify-text"><i class="fa fa-circle" aria-hidden="true"></i><span> Tanggal SK Pendirian : 02 Agustus 2010</span></p>

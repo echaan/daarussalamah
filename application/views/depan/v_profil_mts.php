@@ -24,11 +24,12 @@
             <div class="profil">
                 <div class="card-information">
                     <br>
-                    <p class="justify-text"><i class="fa fa-circle" aria-hidden="true"></i><span> Nama Lembaga : Madrasah Ibtidaiyah Daarussalamah</span></p>
-                    <p class="justify-text"><i class="fa fa-circle" aria-hidden="true"></i><span> Singkatan : MI Daarussalamah</span></p>
-                    <p class="justify-text"><i class="fa fa-circle" aria-hidden="true"></i><span> Tahun Berdiri : ???</span></p>
-                    <p class="justify-text"><i class="fa fa-circle" aria-hidden="true"></i><span> No SK Pendirian : ???</span></p>
-                    <p class="justify-text"><i class="fa fa-circle" aria-hidden="true"></i><span> Tanggal SK Pendirian : ???</span></p>
+                    <p class="justify-text"><i class="fa fa-circle" aria-hidden="true"></i><span> Nama Lembaga : Madrasah Tsanawiyah Swasta Daarussalamah</span></p>
+                    <p class="justify-text"><i class="fa fa-circle" aria-hidden="true"></i><span> Singkatan : MTsS Daarussalamah</span></p>
+                    <p class="justify-text"><i class="fa fa-circle" aria-hidden="true"></i><span> NPSN : 69754572</span></p>
+                    <!-- <p class="justify-text"><i class="fa fa-circle" aria-hidden="true"></i><span> Tahun Berdiri : 2006</span></p> -->
+                    <p class="justify-text"><i class="fa fa-circle" aria-hidden="true"></i><span> No SK Pendirian : NOMOR 191 TAHUN 2007</span></p>
+                    <p class="justify-text"><i class="fa fa-circle" aria-hidden="true"></i><span> Tanggal SK Pendirian : 29 Oktober 2006</span></p>
                     <p class="justify-text"><i class="fa fa-circle" aria-hidden="true"></i><span> Alamat : Jl. Kh. Hasyim Asy'ari. Desa Bangun Jaya</span></p>
                 </div>
                 <div class="card-akreditasi">
@@ -38,7 +39,6 @@
                         <h3>B</h3>
                     </div>
                     <br>
-                    <p>Akreditasi 2024 oleh xxxxx</p>
                 </div>
             </div>          
         </div>

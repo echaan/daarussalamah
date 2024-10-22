@@ -7,7 +7,7 @@
                         <img src="<?php echo base_url().'theme/images/chart-icon_1.png'?>" class="img-fluid" alt="chart_icon">
                     </div>
                     <div class="chart-text">
-                        <p><span class="counter">67</span> Guru
+                        <p><span class="counter">54</span> Guru
                         </p>
                     </div>
                 </div>
@@ -25,7 +25,7 @@
                         <img src="<?php echo base_url().'theme/images/chart-icon_3.png'?>" class="img-fluid" alt="chart_icon">
                     </div>
                     <div class="chart-text">
-                        <p><span class="counter">91 </span> Ruang Belajar
+                        <p><span class="counter">80</span> Ruang Belajar
                         </p>
                     </div>
                 </div>
