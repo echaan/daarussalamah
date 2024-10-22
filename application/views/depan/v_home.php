@@ -16,32 +16,31 @@
             </ol>
             <div class="carousel-inner" role="listbox">
                 <div class="carousel-item active">
-                    <img class="d-block" src="<?php echo base_url().'theme/images/slider.png'?>" alt="First slide">
+                    <img class="d-block" src="<?php echo base_url().'theme/images/slider5.jpg'?>" alt="First slide">
                     <div class="carousel-caption d-md-block">
                         <div class="slider_title">
-                            <h1>Bepikir Kreaftif &amp; Inovatif</h1>
-                            <h4>Bagi kami kreativitas merupakan gerbang masa depan.<br> kreativitas akan mendorong inovasi. <br> Itulah yang kami lakukan.</h4>
+                            <h1 style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Selamat Datang</h1>
+                            <h3>Yayasan Pondok Pesantren<br>Daarussalamah<br>Desa Bangun Jaya</h3>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block" src="<?php echo base_url().'theme/images/slider5.jpg'?>" alt="Second slide">
+                    <img class="d-block" src="<?php echo base_url().'theme/images/slider-1.jpg'?>" alt="Second slide">
                     <div class="carousel-caption d-md-block">
                         <div class="slider_title">
-                            <h1>Guru Bekualitas Tinggi</h1>
-                            <h4>Guru merupakan faktor penting dalam proses belajar-mengajar.<br> Itulah kenapa kami mendatangkan guru-guru <br>terbaik dari berbagai penjuru.</h4>
-                            <div class="slider-btn">
+                            <h1>Tempat belajar yang inspiratif dan penuh semangat</h1>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block" src="<?php echo base_url().'theme/images/slider-4.jpg'?>" alt="Third slide">
+                    <div class="carousel-caption d-md-block">
+                        <div class="slider_title">
+                            <h1 style="text-align:left">Dibina dan dibimbing secara kekeluargaan</h1>
+                            <div class="slider-btn" style="text-align: left;">
                                 <a href="<?php echo site_url('guru');?>" class="btn btn-default">Guru</a>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block" src="<?php echo base_url().'theme/images/slider.png'?>" alt="Third slide">
-                    <div class="carousel-caption d-md-block">
-                        <div class="slider_title">
-                            <h1>Proses Belajar Interatif</h1>
-                            <h4>Kami membuat proses belajar mengajar menjadi lebih interatif.<br> dengan demikian siswa lebih menyukai <br>proses belajar.</h4>
                         </div>
                     </div>
                 </div>
@@ -64,7 +63,7 @@
         <div class="row">
             <div class="col-md-8">
                <h2 style="color: rgb(56, 159, 73);">Welcome</h2>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laborum incidunt distinctio numquam natus vitae temporibus voluptatibus minima veniam perferendis, totam in. Alias rem recusandae fuga natus aspernatur, minima cupiditate at enim sequi sunt atque, eveniet sed magnam dolorum quaerat, blanditiis saepe? Eum, placeat odio quae esse optio quisquam qui?</p>
+               <p>Selamat datang di situs resmi Yayasan Pondok Pesantren Daarussalamah. Kami berkomitmen untuk memberikan pendidikan terbaik yang mengedepankan akhlak mulia dan pengetahuan. Semoga dengan adanya situs ini, informasi tentang kegiatan kami dapat diakses lebih mudah oleh masyarakat luas.</p>
 
             </div>
             <div class="col-md-4">

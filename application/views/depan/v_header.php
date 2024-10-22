@@ -37,9 +37,6 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="<?php echo site_url('');?>">Home</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="<?php echo site_url('sambutan');?>">Sambutan</a>
-                                </li>
                                 <li class="dropdown">
                                 <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="yes" href="<?php echo base_url().'profil'?>">Profil</a>
                                 <ul class="dropdown-menu">
