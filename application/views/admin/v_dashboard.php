@@ -11,9 +11,9 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>MTs Tarbiyatul Falah | Dashboard</title>
+  <title>Dashboard | Yayasan Daarussalamah </title>
   <!-- Tell the browser to be responsive to screen width -->
-  <link rel="shorcut icon" type="text/css" href="<?php echo base_url().'assets/images/favicon.png'?>">
+  <link rel="shortcut icon" href="<?php echo base_url().'theme/images/icon3.png'?>"> 
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.6 -->
   <link rel="stylesheet" href="<?php echo base_url().'assets/bootstrap/css/bootstrap.min.css'?>">
@@ -38,7 +38,7 @@
     ?>
 
 </head>
-<body class="hold-transition skin-blue sidebar-mini">
+<body class="hold-transition skin-green sidebar-mini">
 
 <div class="wrapper">
 

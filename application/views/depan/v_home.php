@@ -77,10 +77,11 @@
 <section class="our_courses">
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12" style="text-align:center">
                 <h2 style="color: rgb(56, 159, 73);">Artikel Terbaru</h2>
             </div>
         </div>
+        <br>
         <div class="row">
           <?php foreach ($berita->result() as $row) :?>
             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
@@ -90,7 +91,7 @@
                     </div>
                     <!-- // end .course-img-wrap -->
                     <a href="<?php echo site_url('artikel/'.$row->tulisan_slug);?>" class="course-box-content">
-                        <h3 style="text-align:center;"><?php echo $row->tulisan_judul;?></h3>
+                        <h3 style="text-align:left;"><?php echo $row->tulisan_judul;?></h3>
                     </a>
                 </div>
             </div>
