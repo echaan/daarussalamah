@@ -168,4 +168,14 @@ class Tulisan extends CI_Controller{
 		redirect('admin/tulisan');
 	}
 
+	public function print_pdf()
+	{
+		$this->load->library('Pdf');
+		$data['data'] = $this->db->get('tbl_tulisan')->result(); // Ganti 'tbl_berita' dengan nama tabel Anda
+
+		$html = $this->load->view('admin/v_pdf_postingan', $data, true);
+		$this->pdf->generate($html, 'Daftar_Postingan');
+	}
+
+
 }
