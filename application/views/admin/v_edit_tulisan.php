@@ -44,7 +44,20 @@
    <?php
     $this->load->view('admin/v_header');
     $activePage = 'berita';
-    include('sidebar.php');
+    
+    // Tentukan file sidebar berdasarkan nilai akses di session
+    $akses = $this->session->userdata('akses');
+    switch ($akses) {
+        case '1':
+            include('sidebar.php');
+            break;
+        case '2':
+            include('sidebar2.php');
+            break;
+        case '3':
+            include('sidebar3.php');
+            break;
+    }
   ?>
 
   <!-- Content Wrapper. Contains page content -->

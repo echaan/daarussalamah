@@ -77,13 +77,28 @@
                 <img src="<?php echo base_url().'assets/images/'.$c['pengguna_photo'];?>" class="img-circle" alt="">
 
                 <p>
-                  <?php echo $c['pengguna_nama'];?>
-                  <?php if($c['pengguna_level']=='1'):?>
-                    <small>Administrator</small>
-                  <?php else:?>
-                    <small>Author</small>
-                  <?php endif;?>
+                    <?php echo $c['pengguna_nama']; ?>
+                    <?php 
+                        switch ($c['pengguna_level']) {
+                            case '1':
+                                echo "<small>Admin</small>";
+                                break;
+                            case '2':
+                                echo "<small>Kepala Sekolah</small>";
+                                break;
+                            case '3':
+                                echo "<small>Operator</small>";
+                                break;
+                            case '4':
+                                echo "<small>Author</small>";
+                                break;
+                            case '5':
+                                echo "<small>Kepala Yayasan</small>";
+                                break;
+                        }
+                    ?>
                 </p>
+
               </li>
               <!-- Menu Body -->
 

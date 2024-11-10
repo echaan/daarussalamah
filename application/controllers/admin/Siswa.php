@@ -2,6 +2,7 @@
 class Siswa extends CI_Controller{
 	function __construct(){
 		parent::__construct();
+		cek_akses([]);
 		if($this->session->userdata('masuk') !=TRUE){
             $url=base_url('administrator');
             redirect($url);

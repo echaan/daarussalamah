@@ -31,11 +31,25 @@
 <body class="hold-transition skin-green sidebar-mini">
 <div class="wrapper">
 
-  <?php
+<?php
     $this->load->view('admin/v_header');
     $activePage = 'pengguna';
-    include('sidebar.php');
-  ?>
+
+    // Tentukan file sidebar berdasarkan nilai akses di session
+    $akses = $this->session->userdata('akses');
+    switch ($akses) {
+        case '1':
+            include('sidebar.php');
+            break;
+        case '2':
+            include('sidebar2.php');
+            break;
+        case '3':
+            include('sidebar3.php');
+            break;
+    }
+?>
+
   
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
@@ -97,12 +111,19 @@
                   <?php else:?>
                         <td>Perempuan</td>
                   <?php endif;?>
-                  <td><?php echo $pengguna_nohp;?></td>
-                  <?php if($pengguna_level=='1'):?>
-                        <td>Administrator</td>
-                  <?php else:?>
-                        <td>Author</td>
-                  <?php endif;?>
+                  <td><?php echo $pengguna_nohp; ?></td>
+                  <?php if ($pengguna_level == '1'): ?>
+                      <td>Admin</td>
+                  <?php elseif ($pengguna_level == '2'): ?>
+                      <td>Kepala Sekolah</td>
+                  <?php elseif ($pengguna_level == '3'): ?>
+                      <td>Operator</td>
+                  <?php elseif ($pengguna_level == '4'): ?>
+                      <td>Author</td>
+                  <?php elseif ($pengguna_level == '5'): ?>
+                      <td>Kepala Yayasan</td>
+                  <?php endif; ?>
+
                   <td style="text-align:right;">
                         <a class="btn" data-toggle="modal" data-target="#ModalEdit<?php echo $pengguna_id;?>"><span class="fa fa-pencil"></span></a>
                         <a class="btn" href="<?php echo base_url().'admin/pengguna/reset_password/'.$pengguna_id;?>"><span class="fa fa-refresh"></span></a>
@@ -195,10 +216,11 @@
                                         <label for="inputUserName" class="col-sm-4 control-label">Level</label>
                                         <div class="col-sm-7">
                                             <select class="form-control" name="xlevel" required>
-                                                <option value="2">Author</option>
+                                                <option value="4">Author</option>
                                                 <option value="1">Admin</option>
-                                                <option value="2">Operator</option>
-                                                <option value="2">Kepala Yayasan</option>
+                                                <option value="3">Operator</option>
+                                                <option value="5">Kepala Yayasan</option>
+                                                <option value="2">Kepala Sekolah</option>
                                             </select>
                                         </div>
                                     </div>
@@ -309,11 +331,17 @@
                                         <div class="col-sm-7">
                                             <select class="form-control" name="xlevel" required>
 											<?php if($pengguna_level=='1'):?>
-                                                <option value="1" selected>Administrator</option>
-                                                <option value="2">Author</option>
+                                                <option value="1">Admin</option>
+                                                <option value="4">Author</option>
+                                                <option value="3">Operator</option>
+                                                <option value="5">Kepala Yayasan</option>
+                                                <option value="2">Kepala Sekolah</option>
 											<?php else:?>
-												<option value="1">Administrator</option>
-                                                <option value="2" selected>Author</option>
+												<option value="4">Author</option>
+                                                <option value="1">Admin</option>
+                                                <option value="3">Operator</option>
+                                                <option value="5">Kepala Yayasan</option>
+                                                <option value="2">Kepala Sekolah</option>
 											<?php endif;?>
                                             </select>
                                         </div>

@@ -2,6 +2,7 @@
 class Pengumuman extends CI_Controller{
 	function __construct(){
 		parent::__construct();
+		cek_akses([1, 2]);
 		if($this->session->userdata('masuk') !=TRUE){
             $url=base_url('administrator');
             redirect($url);
