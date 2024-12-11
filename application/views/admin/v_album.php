@@ -116,12 +116,7 @@
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
-  <footer class="main-footer">
-    <div class="pull-right hidden-xs">
-      <b>Version</b> 1.0
-    </div>
-    <strong>Copyright &copy; 2017 <a href="#">MTs Tarbiyatul Falah</a>.</strong> All rights reserved.
-  </footer>
+  <?php include('footer.php'); ?>
 
   
   <!-- /.control-sidebar -->

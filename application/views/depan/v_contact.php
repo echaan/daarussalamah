@@ -76,23 +76,25 @@
                                 <div class="contact-details">
                                     <i class="fa fa-user" aria-hidden="true"></i>
                                     <h6>Alamat</h6>
-                                    <p> Jl. Raya Siliwangi Km. 10  
-                                        <br> Gg. Melati Rt. 03/ Rw.07 Bekasi,
-                                        <br> Jawa Barat, INA. 17151</p>
+                                    <p> Jl. Kh. Hasyim Asy'ari. 
+                                        <br> Desa Bangun Jaya  
                                     </div>
                                     <br>
                                     <div class="contact-details">
-                                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                                        <h6>Email</h6>
-                                        <p>info@mtstarfalbantargebang.sch.id 
-                                            <br> www.mtstarfalbantargebang.sch.id
+                                        <i class="fa fa-share-alt" aria-hidden="true"></i>
+                                        <h6>Sosial Media</h6>
+                                        <p>
+                                            Instagram - <a href="https://www.instagram.com/daarussalamah_/"style="color: white;">daarussalamah_</a>
+                                            <br>
+                                            Facebook - <a href="https://www.facebook.com/daarussalamah.daarussalamah" style="color: white;">Daarussalamah</a>
                                         </p>
+                                        
                                     </div>
                                     <br>
                                     <div class="contact-details">
                                         <i class="fa fa-phone" aria-hidden="true"></i>
                                         <h6>Phone</h6>
-                                        <p>+628510 025 7920</p>
+                                        <p>+6281268600802</p>
                                     </div>
                                 </div>
                             </div>

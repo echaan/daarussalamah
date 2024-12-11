@@ -73,7 +73,7 @@
           					<th>Nama</th>
           					<th>Tempat/Tgl Lahir</th>
           					<th>Jenis Kelamin</th>
-                    <th>Mata Pelajaran</th>
+                    <th>Keterangan</th>
                     <th style="text-align:right;">Aksi</th>
                 </tr>
                 </thead>
@@ -127,12 +127,7 @@
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
-  <footer class="main-footer">
-    <div class="pull-right hidden-xs">
-      <b>Version</b> 1.0
-    </div>
-    <strong>Copyright &copy; 2017 <a href="#">MTs Tarbiyatul Falah</a>.</strong> All rights reserved.
-  </footer>
+  <?php include('footer.php'); ?>
 
     <!--Modal Add Pengguna-->
         <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -188,7 +183,7 @@
                                     </div>
 
                                     <div class="form-group">
-                                        <label for="inputUserName" class="col-sm-4 control-label">Mata Pelajaran</label>
+                                        <label for="inputUserName" class="col-sm-4 control-label">Keterangan</label>
                                         <div class="col-sm-7">
                                             <input type="text" name="xmapel" class="form-control" id="inputUserName" placeholder="Contoh: PPKN, Matematika" required>
                                         </div>
@@ -289,7 +284,7 @@
                                     </div>
 
                                     <div class="form-group">
-                                        <label for="inputUserName" class="col-sm-4 control-label">Mata Pelajaran</label>
+                                        <label for="inputUserName" class="col-sm-4 control-label">Keterangan</label>
                                         <div class="col-sm-7">
                                             <input type="text" name="xmapel" value="<?php echo $mapel;?>" class="form-control" id="inputUserName" placeholder="Contoh: PPKN, Matematika" required>
                                         </div>

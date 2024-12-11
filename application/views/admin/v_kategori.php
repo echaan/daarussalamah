@@ -118,12 +118,7 @@
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
-  <footer class="main-footer">
-    <div class="pull-right hidden-xs">
-      <b>Version</b> 1.0
-    </div>
-    <strong>Copyright &copy; 2017 <a href="#">MTs Tarbiyatul Falah</a>.</strong> All rights reserved.
-  </footer>
+  <?php include('footer.php'); ?>
 
 <!--Modal Add Pengguna-->
         <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -286,6 +281,18 @@
                     bgColor: '#00C9E6'
                 });
         </script>
+    <?php elseif ($this->session->flashdata('msg') == 'gagal-hapus'): ?>
+      <script type="text/javascript">
+          $.toast({
+              heading: 'Kesalahan',
+              text: "Kategori gagal dihapus. Harap hapus berita dengan kategori yang sama terlebih dahulu.",
+              showHideTransition: 'slide',
+              icon: 'error',
+              hideAfter: false,
+              position: 'bottom-right',
+              bgColor: '#FF5E57'
+          });
+      </script>
     <?php elseif($this->session->flashdata('msg')=='success-hapus'):?>
         <script type="text/javascript">
                 $.toast({
@@ -299,7 +306,7 @@
                 });
         </script>
     <?php else:?>
-
+      <?= $this->session->unset_userdata('msg'); ?>
     <?php endif;?>
 </body>
 </html>
