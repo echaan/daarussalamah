@@ -6,7 +6,7 @@ class Guru extends CI_Controller{
 		$this->load->model('m_pengunjung');
 		$this->m_pengunjung->count_visitor();
 	}
-	function index(){ 
+	function index(){
 		$jum=$this->m_guru->guru();
         $page=$this->uri->segment(3);
         if(!$page):

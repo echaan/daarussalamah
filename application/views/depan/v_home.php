@@ -62,7 +62,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8">
-               <h2 style="color: rgb(56, 159, 73);">Welcome</h2>
+               <h2 style="color: rgb(56, 159, 73);">Selamat Datang</h2>
                <p>Selamat datang di situs resmi Yayasan Pondok Pesantren Daarussalamah. Kami berkomitmen untuk memberikan pendidikan terbaik yang mengedepankan akhlak mulia dan pengetahuan. Semoga dengan adanya situs ini, informasi tentang kegiatan kami dapat diakses lebih mudah oleh masyarakat luas.</p>
 
             </div>
@@ -78,7 +78,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12" style="text-align:center">
-                <h2 style="color: rgb(56, 159, 73);">Artikel Terbaru</h2>
+                <h2 style="color: rgb(56, 159, 73);">Berita Terbaru</h2>
             </div>
         </div>
         <br>
@@ -99,7 +99,7 @@
         </div> <br>
         <div class="row">
             <div class="col-md-12 text-center">
-                <a href="<?php echo site_url('artikel');?>" class="btn btn-default btn-courses">View More</a>
+                <a href="<?php echo site_url('artikel');?>" class="btn btn-default btn-courses">Lihat Selanjutnyya...</a>
             </div>
         </div>
     </div>

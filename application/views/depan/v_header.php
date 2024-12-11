@@ -35,7 +35,7 @@
                         <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="<?php echo site_url('');?>">Home</a>
+                                    <a class="nav-link" href="<?php echo site_url('');?>">Beranda</a>
                                 </li>
                                 <li class="dropdown">
                                 <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="yes" href="<?php echo base_url().'profil'?>">Profil</a>
@@ -52,13 +52,13 @@
                                     <a class="nav-link" href="<?php echo site_url('guru');?>">Guru</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="<?php echo site_url('blog');?>">Blog</a>
+                                    <a class="nav-link" href="<?php echo site_url('blog');?>">Berita</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="<?php echo site_url('pengumuman');?>">Pengumuman</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="<?php echo site_url('galeri');?>">Gallery</a>
+                                    <a class="nav-link" href="<?php echo site_url('galeri');?>">Galeri</a>
                                 </li>
                                 <!-- <li class="dropdown">
                                 <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="yes" href="<?php echo base_url().'profil'?>">Fasilitas</a>
@@ -72,7 +72,7 @@
                                 </ul>
                                 </li> -->
                                 <li class="nav-item">
-                                  <a class="nav-link" href="<?php echo site_url('contact');?>">Contact</a>
+                                  <a class="nav-link" href="<?php echo site_url('contact');?>">Kontak</a>
                                 </li>
                              </ul>
                         </div>

@@ -70,7 +70,7 @@
     <div class="col-xs-12">
       <div class="box">
         <div class="box-header">
-          <a class="btn btn-success btn-flat" data-toggle="modal" data-target="#myModal"><span class="fa fa-plus"></span> Add Photo</a>
+          <a class="btn btn-success btn-flat" data-toggle="modal" data-target="#myModal"><span class="fa fa-plus"></span> Tambah Galeri Foto</a>
         </div>
         <!-- /.box-header -->
         <div class="box-body">
@@ -362,7 +362,7 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><span class="fa fa-close"></span></span></button>
-                        <h4 class="modal-title" id="myModalLabel">Add Photo</h4>
+                        <h4 class="modal-title" id="myModalLabel">Tambah Galeri Foto</h4>
                     </div>
                     <form class="form-horizontal" action="<?php echo base_url().'admin/galeri/simpan_galeri'?>" method="post" enctype="multipart/form-data">
                     <div class="modal-body">

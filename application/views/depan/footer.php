@@ -13,11 +13,10 @@
                     <div class="sitemap">
                         <h3>Menu Utama</h3>
                         <ul>
-                            <li><a href="<?php echo site_url();?>">Home</a></li>
-                            <li><a href="<?php echo site_url('about');?>">About</a></li>
-                            <li><a href="<?php echo site_url('artikel');?>">Blog </a></li>
-                            <li><a href="<?php echo site_url('galeri');?>">Gallery</a></li>
-                            <li><a href="<?php echo site_url('contact');?>">Contact</a></li>
+                            <li><a href="<?php echo site_url();?>">Beranda</a></li>
+                            <li><a href="<?php echo site_url('artikel');?>">Berita </a></li>
+                            <li><a href="<?php echo site_url('galeri');?>">Galeri</a></li>
+                            <li><a href="<?php echo site_url('contact');?>">Kontak</a></li>
                         </ul>
                     </div>
                 </div>

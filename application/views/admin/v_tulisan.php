@@ -81,7 +81,7 @@
 
           <div class="box">
             <div class="box-header">
-              <a class="btn btn-success btn-flat" href="<?php echo base_url().'admin/tulisan/add_tulisan'?>"><span class="fa fa-plus"></span> Post Tulisan</a>
+              <a class="btn btn-success btn-flat" href="<?php echo base_url().'admin/tulisan/add_tulisan'?>"><span class="fa fa-plus"></span> Tambahkan Berita</a>
               <a class="btn btn-primary" href="<?php echo base_url('admin/tulisan/print_pdf'); ?>" target="_blank">
                   <span class="fa fa-print"></span> Cetak PDF
               </a>

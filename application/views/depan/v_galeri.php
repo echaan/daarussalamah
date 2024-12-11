@@ -4,7 +4,7 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Gallery Photo</title>
+  <title>Galeri Foto</title>
   <link rel="shorcut icon" href="<?php echo base_url().'theme/images/icon3.png'?>">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="<?php echo base_url().'theme/css/bootstrap.min.css'?>">
@@ -42,7 +42,7 @@
 <!-- Style 2 -->
 <div class="row">
   <div class="col-md-12">
-    <h3 class="gallery-style">Gallery Photo</h3>
+    <h3 class="gallery-style">Galeri Foto</h3>
   </div>
 </div><br>
 <div class="row">

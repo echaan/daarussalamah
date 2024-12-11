@@ -49,7 +49,7 @@
                                 <h3>Tinggalkan Pesan</h3>
                                 <form action="<?php echo site_url('contact/kirim_pesan');?>" method="post">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Name" name="xnama" required>
+                                        <input type="text" class="form-control" placeholder="Nama" name="xnama" required>
                                     </div>
                                     <!-- // end .form-group -->
                                     <div class="form-group">
@@ -57,14 +57,14 @@
                                     </div>
                                     <!-- // end .form-group -->
                                     <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Phone" name="xphone" required>
+                                        <input type="text" class="form-control" placeholder="No HP" name="xphone" required>
                                     </div>
                                     <!-- // end .form-group -->
                                     <div class="form-group">
-                                        <textarea placeholder="Message" class="form-control" name="xmessage" required rows="5"></textarea>
+                                        <textarea placeholder="Pesan" class="form-control" name="xmessage" required rows="5"></textarea>
                                     </div>
                                     <!-- // end .form-group -->
-                                    <button type="submit" class="btn btn-default btn-submit">SUBMIT</button>
+                                    <button type="submit" class="btn btn-default btn-submit">Kirim</button>
                                     <div><?php echo $this->session->flashdata('msg');?></div>
                                     <!-- // end #js-contact-result -->
                                 </form>
@@ -93,7 +93,7 @@
                                     <br>
                                     <div class="contact-details">
                                         <i class="fa fa-phone" aria-hidden="true"></i>
-                                        <h6>Phone</h6>
+                                        <h6>No. HP</h6>
                                         <p>+6281268600802</p>
                                     </div>
                                 </div>

@@ -10,7 +10,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Tambah Postingan | Yayasan Daarussalamah</title>
+  <title>Tambah Berita | Yayasan Daarussalamah</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <link rel="shortcut icon" href="<?php echo base_url().'theme/images/icon3.png'?>">
@@ -83,7 +83,7 @@
       <!-- SELECT2 EXAMPLE -->
       <div class="box box-default">
         <div class="box-header with-border">
-          <h3 class="box-title">Post Berita</h3>
+          <h3 class="box-title">Tambahkan Berita</h3>
         </div>
 
 		<form action="<?php echo base_url().'admin/tulisan/simpan_tulisan'?>" method="post" enctype="multipart/form-data">
@@ -97,7 +97,7 @@
             <!-- /.col -->
             <div class="col-md-2">
               <div class="form-group">
-                <button type="submit" class="btn btn-primary btn-flat pull-right"><span class="fa fa-pencil"></span> Publish</button>
+                <button type="submit" class="btn btn-primary btn-flat pull-right"><span class="fa fa-pencil"></span> Terbitkan Berita</button>
               <!-- /.form-group -->
             </div>
             <!-- /.col -->
