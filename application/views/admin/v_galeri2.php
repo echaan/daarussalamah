@@ -33,10 +33,23 @@
 <body class="hold-transition skin-green sidebar-mini">
 <div class="wrapper">
 
-   <?php
+<?php
     $this->load->view('admin/v_header');
-    $activePage = 'gallery';
-    include('sidebar.php');
+    $activePage = 'dashboard';
+    
+    // Tentukan file sidebar berdasarkan nilai akses di session
+    $akses = $this->session->userdata('akses');
+    switch ($akses) {
+        case '1':
+            include('sidebar.php');
+            break;
+        case '2':
+            include('sidebar2.php');
+            break;
+        case '3':
+            include('sidebar3.php');
+            break;
+    }
   ?>
 
   
@@ -69,9 +82,7 @@
   <div class="row">
     <div class="col-xs-12">
       <div class="box">
-        <div class="box-header">
-          <a class="btn btn-success btn-flat" data-toggle="modal" data-target="#myModal"><span class="fa fa-plus"></span> Tambah Galeri Foto</a>
-        </div>
+
         <!-- /.box-header -->
         <div class="box-body">
           <table id="example1" class="table table-striped" style="font-size:13px;">

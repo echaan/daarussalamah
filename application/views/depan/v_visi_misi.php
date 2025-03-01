@@ -17,7 +17,7 @@
         </div>
         <br>
         <div class="kepengurusan container d-flex justify-content-center align-items-center">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo veniam quidem reprehenderit sit obcaecati adipisci quisquam saepe aliquam reiciendis laborum?</p>
+        <p>Visi Yayasan Daarussalamah dibentuk berdasarkan Qur’an Surah Al-Mujaddalah ayar 11, yakni unggul dalam pengenalan dan keyakinan kepada Allah, terdepan dalam ibadah dan akhlakul karimah.</p>
         </div>
         <br>
     </section>
@@ -29,15 +29,13 @@
             <h3>Misi</h3>
         </div>
         <br>
-        <div class="kepengurusan container d-flex justify-content-center align-items-center">
+        <div class="kepengurusan container d-flex justify-content-left align-items-left">
         <div>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo veniam quidem reprehenderit sit obcaecati adipisci quisquam saepe aliquam reiciendis laborum?</p>
+            <p>Misi Madrasah Yayasan Daarussalamah adalah sebagai berikut:</p>
             <ol>
-                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel, cumque.</li>
-                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel, cumque.</li>
-                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel, cumque.</li>
-                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel, cumque.</li>
-                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel, cumque.</li>
+                <li>Menngantarkan para siswa memiliki kemantapan akidah, ke dalam spiritual, keluruhan akhlak dan keluasan ilmu agama.</li>
+                <li>Memberikan pelayanan terhadap penggalian ilmu-ilmu keislaman, terutama yang berhubungan dengan keimanan dan ibadah.</li>
+                <li>Memberikan keteladanan dalam kehidupan atas dasar nilai - nilai keislaman.</li>
             </ol>
         </div>
         </div>
