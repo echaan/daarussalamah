@@ -3,6 +3,10 @@
 ## Project Description  
 Daarussalamah is a web project for the Daarussalamah Educational Foundation, developed using CodeIgniter 3.1.9 and PHP 8.1. This application provides various features for visitors and administrators to manage information and communication through a web platform.
 
+## Related Documents
+- [Software Design Document](https://drive.google.com/file/d/1Glq8SVlVMW4gDQrOmjxLqzrCuQb_y-gj/view?usp=sharing)
+- [Project Presentation Slides](https://drive.google.com/file/d/1C7hw3Oh0afEHYVdikJr-sgZvUFecRTwi/view?usp=drive_link)
+
 ## Features  
 
 ### For Visitors:  
